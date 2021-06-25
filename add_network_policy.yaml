@@ -1,7 +1,7 @@
 apiVersion: kyverno.io/v1
 kind: ClusterPolicy
 metadata:
-  name: add-networkpolicy
+  name: add-networkpolicy-demo
   annotations:
     policies.kyverno.io/category: Workload Management
     policies.kyverno.io/description: By default, Kubernetes allows communications across
